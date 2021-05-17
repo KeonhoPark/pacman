@@ -1,0 +1,6 @@
+파이썬 버전이 달라 강의자료에 올려진 Pacman 실습 ppt의 채점명령어 대로 실행하면 오류가 발생하고
+python27 pacman.py -l tinyMaze -z .5 -p SearchAgent -a fn=astar
+python27 pacman.py -l tinyMaze -z .5 -p SearchAgent -a fn=astar,heuristic=yhk_manhattanHeuristic
+python27 pacman.py -l mediumMaze -z .5 -p SearchAgent -a fn=astar,heuristic=yhk_manhattanHeuristic
+python27 pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=yhk_manhattanHeuristic
+명령어들로 실행을 하니 잘 작동하였습니다.
